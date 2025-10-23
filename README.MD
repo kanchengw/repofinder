@@ -60,7 +60,7 @@ GITHUB_TOKEN=你的个人访问令牌
 ### 4. 运行程序
 ```bash
 python repofinder.py   
-# 按照提示输入你的GITHUB用户名和搜索的仓库名即可完成查询
+# 按照提示输入github仓库名即可完成查询
 ```
 
 
