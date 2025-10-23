@@ -51,46 +51,54 @@ repo-finder/
 ### 1. 克隆仓库
 ```bash
 git clone git@github.com:你的用户名/你的仓库名.git
-cd repo-finder  # 进入项目根目录```
+cd repo-finder  # 进入项目根目录
+```
 
 ### 2. 安装依赖
 ```bash
-pip install -r requirements.txt```
+pip install -r requirements.txt
+```
 
 
 ### 3. 配置环境变量
 ```bash
-GITHUB_TOKEN=你的个人访问令牌```
+GITHUB_TOKEN=你的个人访问令牌
+```
 
 
 ### 4. 运行程序
 ```bash
 python repofinder.py   
-# 按照提示输入你的GITHUB用户名和搜索的仓库名即可完成查询```
+# 按照提示输入你的GITHUB用户名和搜索的仓库名即可完成查询
+```
 
 
 ## Docker运行
 
 ### 1. 构建Docker镜像
 ```bash
-docker build -t repo-finder .```
+docker build -t repo-finder .
+```
 
 
 ### 2. 启动容器
 ```bash
-docker run -v %cd%/.env:/app/.env repo-finder```
+docker run -v %cd%/.env:/app/.env repo-finder
+```
 
 
 ## 测试运行
 
 ### 1. 安装依赖
 ```bash
-pip install pytest```
+pip install pytest
+```
 
 
 ### 2. 运行测试
 ```bash
-pytest test.py -v   # -v 显示详细测试日志```
+pytest test.py -v   # -v 显示详细测试日志
+```
 
 
 
