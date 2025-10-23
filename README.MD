@@ -57,34 +57,48 @@ cd repo-finder  # 进入项目根目录
 ### 2. 安装依赖
 ```bash
 pip install -r requirements.txt
+```bash
+
 
 ### 3. 配置环境变量
 ```bash
 GITHUB_TOKEN=你的个人访问令牌
+```bash
+
 
 ### 4. 运行程序
 ```bash
 python repofinder.py   
 # 按照提示输入你的GITHUB用户名和搜索的仓库名即可完成查询
+```bash
+
 
 ## Docker运行
 
 ### 1. 构建Docker镜像
 ```bash
 docker build -t repo-finder .
+```bash
+
 
 ### 2. 启动容器
 ```bash
 docker run -v %cd%/.env:/app/.env repo-finder
+```bash
+
 
 ## 测试运行
 
 ### 1. 安装依赖
 ```bash
 pip install pytest
+```bash
+
 
 ### 2. 运行测试
 ```bash
 pytest test.py -v   # -v 显示详细测试日志
+```bash
+
 
 
