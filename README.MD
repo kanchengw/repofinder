@@ -35,14 +35,6 @@
 - 复刻数
 - 最后更新时间
 
-repo-finder/
-├── repofinder.py       # 主程序代码（核心功能实现）
-├── test.py             # 测试文件（单元测试 + 整体测试）
-├── requirements.txt    # 项目依赖清单（列出所有第三方库）
-├── Dockerfile          # Docker 构建配置（容器化部署）
-├── .dockerignore       # Docker 构建忽略文件（排除无需打包的文件）
-├── .gitignore          # Git 忽略文件（避免敏感/自动生成文件提交）
-└── .env                # 环境变量文件（存储 GITHUB_TOKEN，本地配置不提交）
 
 # 环境配置与使用方法
 
@@ -51,7 +43,6 @@ repo-finder/
 ### 1. 克隆仓库
 ```bash
 git clone git@github.com:你的用户名/你的仓库名.git
-cd repo-finder  # 进入项目根目录
 ```
 
 ### 2. 安装依赖
