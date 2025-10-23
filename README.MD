@@ -52,6 +52,7 @@ repo-finder/
 ```bash
 git clone git@github.com:你的用户名/你的仓库名.git
 cd repo-finder  # 进入项目根目录
+```bash
 
 ### 2. 安装依赖
 ```bash
